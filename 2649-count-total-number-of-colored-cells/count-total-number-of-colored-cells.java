@@ -1,5 +1,5 @@
 class Solution {
     public long coloredCells(long n) {
-        return(2*n*n - 2*n +1);
+        return((n*n) + ((n-1)*(n-1)));
     }
 }
